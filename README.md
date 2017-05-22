@@ -3,6 +3,8 @@ It generates randomized board, and iterates over generated board to move to next
 
 ## Usage
 
+ `$ mvn clean install`
+
 `$ java -jar GameOfLife-1.0.0-SNAPSHOT.jar`
 
 ## Example
@@ -43,4 +45,4 @@ dead  dead  dead
 * maven
 
 ## Running the Tests
-To run unit tests, just execute `maven test`
+To run unit tests, just execute `mvn test`
